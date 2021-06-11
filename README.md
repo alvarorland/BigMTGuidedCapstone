@@ -9,6 +9,7 @@ Using a correlation heatmap to determine which features are most correlated with
 ![image](https://user-images.githubusercontent.com/72377927/121642621-624ace80-ca56-11eb-87b3-60cb6fb34088.png)
 
 AdultWeekend ticket price correlations:
+
 -fastQuads
 -Runs
 -Snow Making_ac. 
@@ -38,6 +39,3 @@ BMR could save on operation costs by closing a specific number of runs as shown 
 Conclusion
 
 Big Mountain Resort's modelled price is $95.87$, actual price is $81.00$. Even with the expected mean absolute error of $10.39$, this suggests there is room for an increase. The additional operating cost of the new the 2 new lifts and the extra 2 acres of snow coverage would be covered under scenario 3, with enough revenue to profit from the season. I'd recommend going with scenario 3, the new features at the resort justifies the increase in ticket price in a market where adult tickets are undervalued.
-
-
-![image](https://user-images.githubusercontent.com/72377927/121643400-64f9f380-ca57-11eb-8e45-c78295a1aade.png)
