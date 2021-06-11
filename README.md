@@ -11,10 +11,15 @@ Using a correlation heatmap to determine which features are most correlated with
 AdultWeekend ticket price correlations:
 
 -fastQuads
+
 -Runs
+
 -Snow Making_ac. 
+
 -resort_night_skiing_state_ratio
+
 -total_chairs
+
 -vertical drop
 
 Modeling
@@ -22,14 +27,21 @@ Modeling
 I used two models for this project.
 
 Linear Regression:
+
 -Imputed with mean and median values
+
 -Using the Mean Absolute Error of this model gave an estimate of $9 or so of the real price
 
 Random Forest:
+
 -Built a pipeline using the median as an imputer, a standard scaler, and cross-validation
+
 -Also used GridSearchCV, leveraging one of the hyperparameters that can be explored using RF
+
 -The random forest model had a lower cross-validation mean absolute error by almost $1 
+
 -Verifying performance on the test set produced performance consistent with the cross-validation results
+
 -This was the model used to determine the final ticket price for the resort
 
 BMR could save on operation costs by closing a specific number of runs as shown below.
